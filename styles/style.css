@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+.top__search{
+    background : linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../assets/1302f131-6a12-4369-8b39-263ad413a11c.jpeg');
+    height: 40rem;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+}
+.btn{
+    background-color: rgb(7, 190, 7);
+    border-color: rgb(7, 190, 7);
+}
+.btn:hover{
+    background-color: rgb(5, 139, 5);
+    border-color: rgb(5, 139, 5);
+}
+.browse__business__container{
+    margin-top: -5rem;
+    height: 40rem;
+}
