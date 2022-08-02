@@ -25,13 +25,41 @@
                 <a class="nav-link" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item me-2">
-                <a class="nav-link" href="#">Landing</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Landing
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
               </li>
               <li class="nav-item me-2">
-                <a class="nav-link" href="#">Pages</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
               </li>
-              <li class="nav-item me-2">
-                <a class="nav-link">Documentation</a>
+              <li class="nav-item dropdown me-2">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Documentation
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
               </li>
               <li class="nav-item me-3 bg-success rounded ">
                 <a class="nav-link text-white px-3">Buy Now</a>
@@ -66,75 +94,75 @@
         </div>
       </div>
       <div class="container-fluid browse__business__container">
-        <div class="row" >
+        <div class="row" style="width: inherit;">
           <div class="col">
-            <h4 class="text-primary text-uppercase fs-6 fw-bold text-center">Browse Business</h4>
+              <h4 class="text-primary text-uppercase fs-6 fw-bold text-center">Browse Business</h4>
           </div>
         </div>
-        <div class="row">
+        <div class="row" style="width: inherit;">
           <div class="col">
-            <div class="col p-0 ">
+            
               <p class="text-center">Not sure what to serach? Browse some of most popular categories.</p>
+          
+          </div>
+        </div>
+        <div class="row justify-content-center gap-4 mt-3 overflow-hidden" style="width: inherit;">
+          <div class="col flex-grow-0">
+            <div class="card shadow" style="width: 23rem;">
+              <img src="./assets/bs_1_1.jpg" class="card-img-top" alt="..." height="260px">
+              <div class="card-body p-2 text-secondary">
+                <h5 class="card-title text-center text-dark fw-light" style="letter-spacing: 2px;">Food</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col flex-grow-0">
+            <div class="card shadow" style="width: 23rem;">
+              <img src="./assets/bs_1_2.jpg" class="card-img-top" alt="..." height="260px">
+              <div class="card-body p-2 text-secondary">
+                <h5 class="card-title text-center text-dark fw-light" style="letter-spacing: 2px;">Programming</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col flex-grow-0">
+            <div class="card shadow" style="width: 23rem;">
+              <img src="./assets/bs_1_3.jpg" class="card-img-top" alt="..." height="260px">
+              <div class="card-body p-2 text-secondary">
+                <h5 class="card-title text-center text-dark fw-light" style="letter-spacing: 2px;" >Office</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col flex-grow-0">
+            <div class="card shadow" style="width: 23rem;">
+              <img src="./assets/bs_1_4.jpg" class="card-img-top" alt="..." height="260px">
+              <div class="card-body p-2 text-secondary">
+                <h5 class="card-title text-center text-dark fw-light" style="letter-spacing: 2px;">Eassy</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col flex-grow-0">
+            <div class="card shadow" style="width: 23rem;">
+              <img src="./assets/nb_2.jpg" class="card-img-top" alt="..." height="260px">
+              <div class="card-body p-2 text-secondary">
+                <h5 class="card-title text-center text-dark fw-light" style="letter-spacing: 2px;">Medical</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col flex-grow-0">
+            <div class="card shadow" style="width: 23rem;">
+              <img src="./assets/nb_3.jpg" class="card-img-top" alt="..." height="260px">
+              <div class="card-body p-2 text-secondary">
+                <h5 class="card-title text-center text-dark fw-light" style="letter-spacing: 2px;">Food</h5>
+              </div>
             </div>
           </div>
         </div>
-        <div class="row justify-content-center gap-4 mt-3 overflow-hidden" >
-          <div class="col flex-grow-0">
-            <div class="card shadow" style="width: 16rem;">
-              <img src="./assets/bs_1.jpg" class="card-img-top" alt="..." height="260px">
-              <div class="card-body p-2 text-secondary">
-                <h5 class="card-title text-center text-dark">Medical</h5>
-              </div>
-            </div>
-          </div>
 
-          <div class="col flex-grow-0">
-            <div class="card shadow" style="width: 16rem;">
-              <img src="./assets/bs_2.jpg" class="card-img-top" alt="..." height="260px">
-              <div class="card-body p-2 text-secondary">
-                <h5 class="card-title text-center text-dark">Medical</h5>
-              </div>
-            </div>
-          </div>
-
-          <div class="col flex-grow-0">
-            <div class="card shadow" style="width: 16rem;">
-              <img src="./assets/bs_3.jpg" class="card-img-top" alt="..." height="260px">
-              <div class="card-body p-2 text-secondary">
-                <h5 class="card-title text-center text-dark">Medical</h5>
-              </div>
-            </div>
-          </div>
-
-          <div class="col flex-grow-0">
-            <div class="card shadow" style="width: 16rem;">
-              <img src="./assets/bs_4.jpg" class="card-img-top" alt="..." height="260px">
-              <div class="card-body p-2 text-secondary">
-                <h5 class="card-title text-center text-dark">Medical</h5>
-              </div>
-            </div>
-          </div>
-
-          <div class="col flex-grow-0">
-            <div class="card shadow" style="width: 16rem;">
-              <img src="./assets/bs_5.jpg" class="card-img-top" alt="..." height="260px">
-              <div class="card-body p-2 text-secondary">
-                <h5 class="card-title text-center text-dark">Medical</h5>
-              </div>
-            </div>
-          </div>
-
-          <div class="col flex-grow-0">
-            <div class="card shadow" style="width: 16rem;">
-              <img src="./assets/bs_1.jpg" class="card-img-top" alt="..." height="260px">
-              <div class="card-body p-2 text-secondary">
-                <h5 class="card-title text-center text-dark">Medical</h5>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row shadow p-5 get__news__container bg-white rounded ">
+        <div class="row shadow p-5 get__news__container bg-white rounded">
           <div class="col-12 col-md-6">
             <h4>Get latest news</h4>
             <p class="text-muted">Stay in loop with the latest features and updates added to our application.</p>
@@ -150,8 +178,8 @@
 
       </div>
       <div class="container-fluid new__business__container bg-white">
-        <div class="row" >
-          <div class="col p-0">
+        <div class="row justify-content-center" >
+          <div class="col-10 p-0">
             <h4 class="text-primary text-uppercase fs-6 fw-bold text-center">New Business</h4>
             <p class="text-center">Not sure what to serach? Browse some of most popular categories.</p>
           </div>
@@ -161,7 +189,7 @@
 
           <div class="col shadow flex-grow-0 p-0">
             <div class="card overflow-hidden" style="width: 25rem;">
-              <img src="./assets/nb_!.jpg" class="card-img-top" alt="...">
+              <img src="./assets/bs_1_1.jpg" height="270px" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-center mb-0">The Bambo Ranch</h5>
                 <div class="text-center" style="color: orange;">
@@ -179,7 +207,7 @@
           </div>
           <div class="col shadow flex-grow-0 p-0">
             <div class="card overflow-hidden" style="width: 25rem;">
-              <img src="./assets/nb_2.jpg" class="card-img-top" alt="...">
+              <img src="./assets/nb_2.jpg"  height="270px" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-center mb-0">The Bambo Ranch</h5>
                 <div class="text-center" style="color: orange;">
@@ -198,7 +226,7 @@
 
           <div class="col shadow flex-grow-0 p-0">
             <div class="card overflow-hidden" style="width: 25rem;">
-              <img src="./assets/nb_3.jpg" class="card-img-top" alt="...">
+              <img src="./assets/nb_3.jpg" height="270px" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-center mb-0">The Bambo Ranch</h5>
                 <div class="text-center" style="color: orange;">
@@ -219,8 +247,8 @@
     </main>
     <footer>
       <div class="container">
-        <div class="row justify-content-around text-white-50">
-          <div class="col">
+        <div class="row justify-content-around text-white-50 gap-2">
+          <div class="col-12 col-md-2 text-center">
             <h4 class="mb-1 fs-2">SB UI Kit Pro</h4>
             <p class="fw-lighter">Design made easy</p>
             <div>
@@ -230,7 +258,7 @@
               <i class="fa-brands fa-github me-2"></i>
             </div>
           </div>
-          <div class="col">
+          <div class="col-3 col-md-2">
             <h4 class="text-uppercase fs-4 mb-4">Product</h4>
             <ul class="footer__list">
               <li>Landing</li>
@@ -240,7 +268,7 @@
               <li>Changelog</li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col-3 col-md-2">
             <h4 class="text-uppercase fs-4 mb-4">Technical</h4>
             <ul class="footer__list">
               <li>Documentation</li>
@@ -249,7 +277,7 @@
               <li>UI Kit</li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col-3 col-md-2">
             <h4 class="text-uppercase fs-4 mb-4">Includes</h4>
             <ul class="footer__list">
               <li>Utilities</li>
@@ -261,7 +289,7 @@
               <li>Products</li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col-3 col-md-2">
             <h4 class="text-uppercase fs-4 mb-4">Legal</h4>
             <ul class="footer__list">
               <li>Privacy Policy</li>
@@ -269,7 +297,7 @@
               <li>License</li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col-3 col-md-2">
             <h4 class="text-uppercase fs-4 mb-4">Product</h4>
             <ul class="footer__list">
               <li>Landing</li>
